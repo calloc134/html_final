@@ -24,7 +24,8 @@
         "formulahendry.auto-rename-tag",
         "formulahendry.auto-close-tag",
         "GitHub.copilot",
-        "eamodio.gitlens"
+        "eamodio.gitlens",
+        "github.vscode-github-actions"
       ]
     }
   }
