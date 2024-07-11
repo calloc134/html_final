@@ -22,7 +22,7 @@ devcontainer で開発環境を整えてあるため、Github Codespaces から�
 コンテナにアタッチした後、以下のコマンドを実行することで、Tailwind CSS で CSS のコンパイルをしながら HTML を確認するサーバを立ち上げることができる。
 
 ```bash
-pnpm tailwindcss -i css/input.css -o css/style.css & pnpm vite
+pnpm tailwindcss -i css/input.css -o css/style.css --watch & pnpm vite
 ```
 
 ## 利用技術
