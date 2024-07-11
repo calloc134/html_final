@@ -26,7 +26,7 @@ jobs:
       - name: clone spa repository
         run: git clone https://github.com/calloc134/reserv-frontend-lab
       - name: Install dependencies
-        run: pnpm install --flozen-lockfile
+        run: pnpm install --frozen-lockfile
         working-directory: ./reserv-frontend-lab
       - name: Build
         run: VITE_APP_PATH='/reservations/' pnpm run build
