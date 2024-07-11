@@ -41,6 +41,9 @@ jobs:
           cp ./*.html ./public
           cp -r ./css ./public/css
 
+      - name: add redirect rule on reservations dir
+        run: echo '/reservations/* /reservations.html 200' > ./public/_redirects
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
