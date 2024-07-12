@@ -4,7 +4,7 @@
 
 部活の紹介と、部室予約システムを提供する Web ページ。
 
-以下、その他の依存リポジトリにつてのリンクを示す。
+以下、その他の依存リポジトリについてのリンクを示す。
 
 動的サイト フロントエンドソースコード: [https://github.com/calloc134/reserv-frontend-lab](https://github.com/calloc134/reserv-frontend-lab)  
 動的サイト バックエンドソースコード: [https://github.com/calloc134/reserv-backend-lab](https://github.com/calloc134/reserv-backend-lab)
