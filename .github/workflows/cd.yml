@@ -1,4 +1,4 @@
-name: deploy cloudflare pages
+name: deploy netlify pages
 
 on:
   push:
